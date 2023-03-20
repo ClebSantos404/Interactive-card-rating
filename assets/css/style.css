@@ -11,6 +11,7 @@
   --input-hover: #F77817;
   --input-checked: #7C8A97;
   --input-default: #262F38;
+  --letter-color: #8c98a3;
 }
 
 body {
@@ -25,16 +26,16 @@ body {
 }
 
 main {
-  width: 35em;
-  height: 35em;
+  width: 28em;
+  height: 28em;
   background: var(--container-color);
-  border-radius: 40px;
+  border-radius: 35px;
   display: flex;
   flex-direction: column;
 }
 
 .star-icon {
-  margin: 30px 0 20px 40px;
+  margin: 40px 0 20px 40px;
   border-radius: 50px;
   width: 3em;
   height: 3em;
@@ -42,4 +43,53 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+main h1 {
+  margin: 10px 0 15px 40px;
+}
+
+.description {
+  width: 25em;
+  height: 5em;
+  margin: 0 40px;
+  line-height: 25px;
+  color: var(--letter-color);
+  font-size: 0.9em;
+}
+
+.classifications {
+  margin: 30px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rate {
+  width: 55px;
+  height: 55px;
+  border-radius: 50px;
+  border: none;
+  background: var(--input-default);
+  color: var(--letter-color);
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit {
+  padding: 15px 150px;
+  border-radius: 50px;
+  background: var(--input-hover);
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 15px;
 }
