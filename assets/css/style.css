@@ -92,4 +92,62 @@ main h1 {
   font-weight: 700;
   letter-spacing: 2px;
   font-size: 15px;
+  cursor: pointer;
+}
+
+.rate:hover {
+  background: var(--input-hover);
+  color: white;
+}
+
+.rate:focus {
+  background: var(--input-checked);
+  color: white;
+}
+
+.submit:hover, :focus {
+  background: white;
+  color: var(--input-hover);
+}
+
+.two {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Inter",sans-serif;
+}
+
+.icon {
+  margin-top: 10%;
+  margin-bottom: 2em;
+}
+
+.boxToSelect .boxOrange {
+  display: flex;
+  justify-content: center;
+  width: 15em;
+  padding: 10px;
+  margin: 5px auto;
+  background: var(--input-default);
+  color: rgba(255, 136, 0, 0.849);
+  border-radius: 20px;
+}
+
+.boxToSelect .alignment {
+  display: flex;
+  justify-content: center;
+  margin: 20px;  
+}
+
+.boxToSelect .thx {
+  margin-top: 40px;
+  font-size: 2em;
+  font-family: "Inter", sans-serif;
+}
+
+.boxToSelect .toText {
+  width: 380px;
+  text-align: center;
+  color: var(--letter-color);
 }
