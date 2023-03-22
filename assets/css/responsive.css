@@ -1,0 +1,48 @@
+@media (max-width: 470px) {
+  body {
+    max-width: 100%;
+  }
+
+  main {
+    width: 25em;
+    max-width: 80%;
+    border-radius: 20px;
+  }
+
+  .description {
+    max-width: 85%;
+  }
+
+  .rate {
+    width: 3em;
+    height: 3em;
+    font-size: 0.8em;
+    margin-top: 10px;
+  }
+
+  .submit {
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .boxToSelect .toText {
+    width: 90%;
+  }
+}
+
+@media (max-width: 400px) {
+  .submit {
+    padding: 1em 7em;
+  }
+  
+  .description {
+    margin: 5px auto;
+  }
+
+  main h1 {
+    margin: 5px 25px;
+    font-size: 1.8em;
+  }
+}
