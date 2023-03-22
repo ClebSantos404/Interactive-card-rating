@@ -55,7 +55,7 @@ main h1 {
   margin: 0 40px;
   line-height: 25px;
   color: var(--letter-color);
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 .classifications {
@@ -65,14 +65,14 @@ main h1 {
 }
 
 .rate {
-  width: 55px;
-  height: 55px;
+  width: 4em;
+  height: 4em;
   border-radius: 50px;
   border: none;
   background: var(--input-default);
   color: var(--letter-color);
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1em;
   font-family: "Inter", sans-serif;
 }
 
@@ -83,7 +83,7 @@ main h1 {
 }
 
 .submit {
-  padding: 15px 150px;
+  padding: 1em 10em;
   border-radius: 50px;
   background: var(--input-hover);
   border: none;
@@ -147,7 +147,7 @@ main h1 {
 }
 
 .boxToSelect .toText {
-  width: 380px;
+  width: 24em;
   text-align: center;
   color: var(--letter-color);
 }
